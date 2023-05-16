@@ -1,18 +1,28 @@
 # Third Party Dependencies
 
-> **_TODO_**:
->
-> - Intro to the topic
-> - How to choose?
->   - recommended packages
->   - process on choosing non-recommended packages
->   - hard criteria (license)
->   - LTS versions
-> - Managing dependencies (dependabot, etc)
+It is common practice utilizing third-party libraries for our projects. Choosing the right one can be a difficult task. Therefore we curated a list of recommended packages and help with choosing a package which is not on the list.
+
+## How to choose a third party package?
+
+When choosing a NPM package for your project please check the [recommended packages](#-list-of-recommended-packages) list first. This is a curated list recommended by the frontend developer community of the Gemeente Amsterdam.
+
+If the packages in the list do not fit your requirements you can pick a non-recommended package. When do so, consider the following checklist.
+
+> **_TODO_**: Add a description per point.
+
+- Does it have the correct license?
+- Is the package health still good?
+  - Who is maintaining it?
+  - Is it actively maintained?
+  - How many downloads per week?
+- Does it have an acceptable bundle size?
+- Compare it with other similar packages.
+
+You could propose a package to the list of Recommonded Packages. Create a PR with a description to motivate your proposal.
 
 ## List of recommended packages
 
-A collection of third party (React) libaries and frameworks we recommend using in your frontend project.
+A collection of third party (React) libaries we recommend using in your frontend project.
 
 _**(This list still needs to be curated!)**_
 
@@ -73,3 +83,11 @@ _**(This list still needs to be curated!)**_
 - [lodash](https://lodash.com/)
 - [moment js](https://momentjs.com/)
 - [date-fns](https://date-fns.org/)
+
+## Managing dependencies
+
+> **_TODO_**: Intro text and ??
+
+- When hosting repo on Github use Dependabot.
+- Create a recurring story in the sprint to update packages
+- ??
