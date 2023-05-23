@@ -1,12 +1,12 @@
 # Third Party Dependencies
 
-It is common practice utilizing third-party libraries for our projects. Choosing the right one can be a difficult task. Therefore we curated a list of recommended packages and help with choosing a package which is not on the list.
+It is common practice utilizing third-party libraries for our projects. Choosing the right one can be a difficult task. Therefore we curated a list of recommended packages and set guidelines for choosing a package which is not on the list.
 
-## How to choose a third party package?
+## Guidelines for choosing a third party package.
 
 When choosing a NPM package for your project please check the [recommended packages](#-list-of-recommended-packages) list first. This is a curated list recommended by the frontend developer community of the Gemeente Amsterdam.
 
-If the packages in the list do not fit your requirements you can pick a non-recommended package. When do so, consider the following checklist.
+If the packages in the list do not fit your requirements you can pick a non-recommended package. When do so, follow these guidelines.
 
 > **_TODO_**: Add a description per point.
 
@@ -16,15 +16,15 @@ If the packages in the list do not fit your requirements you can pick a non-reco
   - Is it actively maintained?
   - How many downloads per week?
 - Does it have an acceptable bundle size?
-- Compare it with other similar packages.
+- Comparison of similar packages.s
 
 You could propose a package to the list of Recommonded Packages. Create a PR with a description to motivate your proposal.
 
 ## List of recommended packages
 
-A collection of third party (React) libaries we recommend using in your frontend project.
+A collection of third party (React) libraries we recommend using in your frontend project.
 
-_**(This list still needs to be curated!)**_
+_**(This list not final!)**_
 
 ### Starter Kits
 
@@ -91,3 +91,7 @@ _**(This list still needs to be curated!)**_
 - When hosting repo on Github use Dependabot.
 - Create a recurring story in the sprint to update packages
 - ??
+
+## Reference
+
+[Third Party Dependency Standard](../standards/third-party-dependencies.md)
