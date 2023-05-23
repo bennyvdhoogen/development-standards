@@ -8,7 +8,7 @@ When choosing a NPM package for your project please check the [recommended packa
 
 If the packages in the list do not fit your requirements you can pick a non-recommended package. When do so, follow these guidelines.
 
-> **_TODO_**: Add a description per point.
+> **_TODO_**: Add a description per guideline.
 
 - Does it have the correct license?
 - Is the package health still good?
@@ -24,7 +24,7 @@ You could propose a package to the list of Recommonded Packages. Create a PR wit
 
 A collection of third party (React) libraries we recommend using in your frontend project.
 
-_**(This list not final!)**_
+_**(This list is not final!)**_
 
 ### Starter Kits
 
@@ -89,7 +89,7 @@ _**(This list not final!)**_
 > **_TODO_**: Intro text and ??
 
 - When hosting repo on Github use Dependabot.
-- Create a recurring story in the sprint to update packages
+- Add a recurring story in the sprint to update packages
 - ??
 
 ## Reference
