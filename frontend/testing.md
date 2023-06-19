@@ -1,47 +1,51 @@
 # Testing
 
-INTRO Text to (frontend) testing. This is an extension of the general Testing Standard.
+Testing is a crucial part of the developing high-quality software products. It should give you more confidence in shipping products to the world.
+Tests do not only ensure quality and reliability but also describes how (parts of) the software works.
+There are different kinds of tests with each having its own purpose and benefits. In the frontend the following are very common.
 
-- integration
-- unit
-- e2e
-- snapshot
+**Unit testing**:
+Unit tests focus on a single part of a whole application in total isolation, usually, a function or class. Ideally, the tested component is free of side effects so it is as easy to isolate and test as possible.
 
-## Tests in Amsterdam frontend projects
+**Integration testing:**
+While unit test are run in isolation and are free of side effects, integration tests aim to test interaction between components/modules and where side effects might occur.
+It is does not test the implementation details, but the context of a functionality.
 
-- unit
-  elke vorm logica moet getest worden
-- integration
-  wegmocken van externen afhankelijkheden.
-  integratie test light
-  maakt gebruik van JSDom kan een nadeel zijn.
+**E2E-testing:**
+E2E-testing goes a step further than integration testing. It test the whole flow from start to end, in example a user journey. For e2e tests the team is responsible for
+describing scenerios and cases. E2E are time consuming, require high maintenance and have a more complex setup. Running e2e test is usually a team effort. Although e2e tests are quite expensive, it ensures a higher confidence in shipping software. It tests real world scenerios on a production like environment.
 
-## Testing strategy:
+**Snapshot testing:**
+Snapshot tests ensure that the UI did not unexpectedly change compared to the previous state of the rendered output. A typical snapshot test case renders a UI component, takes a snapshot, then compares it to a reference snapshot.
 
-- Don't test [implementation detail](https://kentcdodds.com/blog/testing-implementation-details)
-- what to test <https://kentcdodds.com/blog/write-tests>
-- TODO: Best practices:
-  - <https://www.benmvp.com/blog/react-testing-library-best-practices/>
-  - <https://github.com/patternfly/patternfly-react/wiki/React-Testing-Library-Basics,-Best-Practices,-and-Guidelines>
-- Mocking
-  - organise your mocking `__mocks__`
-  - fixtures `__stubs__`
-- Project documentation for testing
+## Guidelines for testing frontend applications
 
-## Test coverage
+These guidelines will help to integrate testing in your development process. They also provide a "framework" to plan, execute and manage the testing process.
 
-- line coverage
-- branch coverage
+### Unit & Integration Tests
 
-## Tests part of deployment pipeline
+Every production ready frontend project needs to have unit and integration tests included. Developers are responsible for writing and maintaining these tests. E2E are optional since not all expertise or the required resources are at hand. We strongly recommend Jest as a testing framework. React Testing Library is an useful utility library for testing React applications.
+
+### Define a Test Plan
+
+It is good to have a predefined test plan. This helps us to write consistent and high-quality test suits.
+A test plan may outline:
+
+- The scope of the tests
+- Whether the focus is on unit or intergration test
+- How to organise your mocking
+- How to structure test files, mocks and stubs.
+- Determine which code coverage is leading.
+- Determine baseline for code coverage.
+- How to integrate in the deployment pipeline
 
 ## Best practices
 
-- test niet 3rd party libraries
-- gebruik testid(s)
-- debuggen??
-
-## debuggen??
+- Components test re-rendering logic not business logic
+- Separate helper/util functions from the component context. Easier to test.
+- Don't test implementation details
+- Don't test 3rd party library api
+- Make use of `data-testid`
 
 ## Tooling
 
@@ -52,15 +56,9 @@ INTRO Text to (frontend) testing. This is an extension of the general Testing St
 
 - <https://circleci.com/blog/unit-testing-vs-integration-testing/>
 - [Snapshot testing](https://circleci.com/blog/snapshot-testing-with-jest/)
+- <https://www.geeksforgeeks.org/difference-between-unit-testing-and-integration-testing/>
 - <https://testing-library.com/docs/guiding-principles/>
-
-## Advanced testing?
-
-#### Notes from meeting with Rene:
-
-- Testing gives more confidence in releasing software
-- Mostly integration and unit tests
-- Standarize mocking
-- Don't test everything.
-- Test mindset
-  - key takeaways??
+- Don't test [implementation detail](https://kentcdodds.com/blog/testing-implementation-details)
+- what to test <https://kentcdodds.com/blog/write-tests>
+- <https://www.benmvp.com/blog/react-testing-library-best-practices/>
+- <https://github.com/patternfly/patternfly-react/wiki/React-Testing-Library-Basics,-Best-Practices,-and-Guidelines>
