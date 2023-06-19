@@ -47,10 +47,15 @@ A test plan may outline:
 - Don't test 3rd party library api
 - Make use of `data-testid`
 
-## Tooling
+## Framework / Libraries / Tooling
 
-- https://miragejs.com/
-- editor extensions
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/)
+- [VS Code Jest extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+- [VS Code Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
+- [Mirage JS](https://miragejs.com/): For mocking API
+- [Mock Service Worker - MSW](https://mswjs.io/): For mocking API
+- VS Code integrated Javascript Debug Terminal
 
 ## References
 
@@ -62,3 +67,4 @@ A test plan may outline:
 - what to test <https://kentcdodds.com/blog/write-tests>
 - <https://www.benmvp.com/blog/react-testing-library-best-practices/>
 - <https://github.com/patternfly/patternfly-react/wiki/React-Testing-Library-Basics,-Best-Practices,-and-Guidelines>
+- [Clean and flexible way to write fixtures](https://michalzalecki.com/fixtures-the-way-to-manage-sample-and-test-data/)
