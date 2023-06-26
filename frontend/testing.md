@@ -8,12 +8,10 @@ There are different kinds of tests with each having its own purpose and benefits
 Unit tests focus on a single part of a whole application in total isolation, usually, a function or class. Ideally, the tested component is free of side effects so it is as easy to isolate and test as possible.
 
 **Integration testing:**
-While unit test are run in isolation and are free of side effects, integration tests aim to test interaction between components/modules and where side effects might occur.
-It is does not test the implementation details, but the context of a functionality.
+While unit test are run in isolation and are free of side effects, integration tests aim to test interaction between components/modules and where side effects might occur. It is does not test the implementation details, but the context of a functionality.
 
 **E2E-testing:**
-E2E-testing goes a step further than integration testing. It test the whole flow from start to end, in example a user journey. For e2e tests the team is responsible for
-describing scenerios and cases. E2E are time consuming, require high maintenance and have a more complex setup. Running e2e test is usually a team effort. Although e2e tests are quite expensive, it ensures a higher confidence in shipping software. It tests real world scenerios on a production like environment.
+E2E-testing goes a step further than integration testing. It test the whole flow from start to end, in example a user journey. For e2e tests the team is responsible for describing scenerios and cases. E2E are time consuming, require high maintenance and have a more complex setup. Running e2e test is usually a team effort. Although e2e tests are quite expensive, it ensures a higher confidence in shipping software. It tests real world scenerios on a production like environment.
 
 **Snapshot testing:**
 Snapshot tests ensure that the UI did not unexpectedly change compared to the previous state of the rendered output. A typical snapshot test case renders a UI component, takes a snapshot, then compares it to a reference snapshot.
