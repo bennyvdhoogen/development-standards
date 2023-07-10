@@ -29,21 +29,24 @@ Every production ready frontend project needs to have unit and integration tests
 It is good to have a predefined test plan. This helps us to write consistent and high-quality test suits.
 A test plan may outline:
 
-- The scope of the tests
-- Whether the focus is on unit or intergration test
-- How to organise your mocking
+- The scope of the tests.
+- Whether the focus is on unit or intergration test.
+- Determine what to mock. I.e. mock away http responses.
 - How to structure test files, mocks and stubs.
 - Determine which code coverage is leading.
-- Determine baseline for code coverage.
-- How to integrate in the deployment pipeline
+- Determine baseline for code coverage (??).
+- How to integrate in the deployment pipeline.
 
 ## Best practices
 
-- Components test re-rendering logic not business logic
+Here are some things to keep it mind when writing tests. For code snippets see examples in this Github repo.
+
+- Components test re-rendering logic not business logic.
+- Write test to simulate user interactions.
 - Separate helper/util functions from the component context. Easier to test.
-- Don't test implementation details
-- Don't test 3rd party library api
-- Make use of `data-testid`
+- Don't test implementation details.
+- Don't test 3rd party library api.
+- Make use of `data-testid`.
 
 ## Framework / Libraries / Tooling
 
@@ -51,14 +54,13 @@ A test plan may outline:
 - [React Testing Library](https://testing-library.com/)
 - [VS Code Jest extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [VS Code Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
-- [Mirage JS](https://miragejs.com/): For mocking API
-- [Mock Service Worker - MSW](https://mswjs.io/): For mocking API
-- VS Code integrated Javascript Debug Terminal
+- For mocking API: [Mirage JS](https://miragejs.com/)
+- For mocking API: [Mock Service Worker - MSW](https://mswjs.io/)
 
 ## References
 
 - <https://circleci.com/blog/unit-testing-vs-integration-testing/>
-- [Snapshot testing](https://circleci.com/blog/snapshot-testing-with-jest/)
+- <https://circleci.com/blog/snapshot-testing-with-jest/>
 - <https://www.geeksforgeeks.org/difference-between-unit-testing-and-integration-testing/>
 - <https://testing-library.com/docs/guiding-principles/>
 - Don't test [implementation detail](https://kentcdodds.com/blog/testing-implementation-details)
