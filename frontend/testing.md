@@ -34,7 +34,7 @@ A test plan may outline:
 - Determine what to mock. I.e. mock away http responses.
 - How to structure test files, mocks and stubs.
 - Determine which code coverage is leading.
-- Determine baseline for code coverage (??).
+- Determine baseline for code coverage.
 - How to integrate in the deployment pipeline.
 
 ## Best practices
