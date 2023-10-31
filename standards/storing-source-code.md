@@ -1,4 +1,6 @@
 # Storing source code
+Also see [using git](using-git.md).
+
 We use Git to store our source code. Git is a version control system of which Github is one of the largest providers of Git. Azure Repos and GitLab are other examples of provders. 
 
 Using Git has multiple benefits:

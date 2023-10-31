@@ -1,6 +1,5 @@
 # Using Git
-
-Also see 'Storing source code'.
+Also see [storing source code](storing-source-code.md).
 
 ## Branching
 Always use a new branch for a feature, bug fix or other task. 
