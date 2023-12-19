@@ -56,9 +56,9 @@ for example. Surely there are many more sources available that state similar inf
 
 
 ## Workflow
-In order to collaborate well on contributing to the same codebase, it is highly recommended to use a specific workflow using branches. Make sure to reach concensus in your team on what workflow is being used.
+In order to collaborate well on contributing to the same codebase, it is highly recommended to use a specific workflow using branches. Make sure to reach consensus in your team on what workflow is being used.
 
-A lot of thought an experience has already been put into coming up with these workflows. Of course, it is possible to deviate from their standard specifications if absolutely necessary, although this should be a rare.
+A lot of thought and experience has already been put into coming up with these workflows. Of course, it is possible to deviate from their standard specifications if absolutely necessary, although this should be rare.
 
 Recommended are:
 - [GitLab workflow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) (recommended)
