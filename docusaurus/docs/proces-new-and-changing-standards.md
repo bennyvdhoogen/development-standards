@@ -1,28 +1,21 @@
-# Centralized Standardization Process: Documentation and Review Workflow 
+# Inviting Innovations in New Standards or Thoughtful Tweaks to the Old
 
 | Date       | Author                | Content         |
 |------------|-----------------------|-----------------|
-| 2024-02-28 | Sirée Koolen-Wijkstra | Created content |
+| 2024-03-06 | Sirée Koolen-Wijkstra | Created content |
 
-## Procedure for proposing and implementing New Standards in Software Development.
+## Proces
 
-TODO once known: write general introduction about standards, where they are kept and where PRs can be submitted 
+Feel free to refine or introduce standards according to your vision – it's a straightforward and positive proces. Just follow these steps:
 
-### Step 1 Use the template
-Proposals for new standards are written by at least two individuals. The template for creating standards TODO once known: a reference to the standards template> will be used to document the new standard. Details regarding this template and the submission process are accessible in the documentation of the EE team on standards.
+1. Begin by shaping your proposal using [this format](TODO: link to the format). Share your proposal by submitting a pull request in the [the repository development-standards](https://github.com/Amsterdam/development-standards).
+2. Expect a positive collaboration! The Engineering Enablement team will get in touch to refine and enhance your proposal. We'll also appreciate it if you can identify other developers who share a positive view on your proposal for an initial review.
+3. Your proposal will be brought to the Guild for a constructive discussion. Your thoughtful participation in the conversation is warmly encouraged. 
+4. If your proposal receives positive acknowledgment, the Engineering Enablement team will tag participating developers in the pull request and give it a positive approval. 
+5. Embrace constructive feedback! Developers offering insights will be asked to share their thoughts on Github or contribute positively to the pull request. Whether it's the Engineering Enablement team or yourself, let's work together positively to incorporate feedback until it's a refined piece. Once perfected, the pull request will receive a positive approval. 
+6Celebrate the introduction! The updated or new standard will be published with a positive outlook. After 9 months, the Engineering Enablement team will reach out to those tagged, including you and the proposal approver, to confirm that the standard still holds its positive impact.
 
-### Involve the guild
-The proposal undergoes submission to the guild, initiating discussions on its potential adoption. The EE team then updates the Amsterdam Software Tech Radar to reflect the proposal's status. If accepted, with potential modifications, the submitters are requested to generate a pull request (PR).
 
-### Step 3 Tag reviewers
-The submitters will tag in their PR at least two reviewers, one from the EE team and one person whom participated in the discussion during the guild meeting.  When all feedback has been resolved, the EE team proceeds to merge the PR.
+## Additional information
 
-### Step 4 Set timer for yearly review 
-A one-year timer is initiated to assess the standard's validity later by the EE team. The EE team updates the status in the Amsterdam Software Tech Radar, and the guild maintains a record of the submitter's knowledge on this topic. 
-
-## Procedure for modifying and implementing changes to standards in software development. 
-There are two reasons to modify an existing standard: 
-1. A request for modification comes from someone in the field.
-2. Standards undergo annual reviews within the guild, and modifications stem from this process. The EE team schedules the standards to be reviewed in the guilds. 
-
-In both cases the steps set out in the section 'Procedure for proposing and implementing New Standards in Software Development' are to be followed. 
+We're thrilled about your interest in contributing to our development community! The Engineering Enablement team is here to back you up every step of the way. If, at any point, contributing starts feeling a bit overwhelming, feel free to take a step back, and we'll gladly pick up the reins from there. Your involvement is valued, and we're here to help.
