@@ -39,8 +39,13 @@ W3.org has offered [a concise guide](https://www.w3.org/WAI/WCAG22/quickref/?ver
 
 ## How to test for accessibility
 ### in general?
-- Manually test your application to ensure proper rendering by adjusting the text size to the maximum, zooming in at 200%, and verifying that all links feature descriptive link text.
-- Evaluate your application by conducting tests without the use of a keyboard and/or mouse. Employ tools like screen readers, such as [JAWS](https://accessibility.psu.edu/screenreaders/jawscommands/), [VoiceOver](https://support.apple.com/guide/voiceover-guide/welcome/web) or the keyboard shortcuts when testing for usage without a mouse for this assessment. Pay attention to specific issues during testing, such as ensuring the focus ring remains consistently visible, confirming that the page's order is logical, and verifying that all content is accessible to the screen reader.
+- [ ] Manually test your application to ensure proper rendering: 
+    - [ ] adjusting the text size to the maximum
+    - [ ] zooming in at 200% 
+    - [ ] verify that all links feature descriptive link text.
+- [ ] Evaluate the usability of your application by 
+  - [ ] testing a workflow on your application without the use of a keyboard 
+  - [ ] testing a workflow on your application without the use of a mouse Employ tools like screen readers, such as [JAWS](https://accessibility.psu.edu/screenreaders/jawscommands/), [VoiceOver](https://support.apple.com/guide/voiceover-guide/welcome/web) or the keyboard shortcuts when testing for usage without a mouse for this assessment. Pay attention to specific issues during testing, such as ensuring the focus ring remains consistently visible, confirming that the page's order is logical, and verifying that all content is accessible to the screen reader.
 
 ### on a web application?
 - Validate your webpage using a dedicated tool like [WebAIM’s WAVE Accessibility Evaluation Tool](https://wave.webaim.org/standalone), [Markup Validation Service](https://validator.w3.org/) and [Lighthouse from Google](https://developer.chrome.com/docs/lighthouse/overview). WebAIM's WAVE Accessibility Evaluation Tool offers the option to disable stylesheets, allowing you to assess the content ordering as presented to screen readers.
