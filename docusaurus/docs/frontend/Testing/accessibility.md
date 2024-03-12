@@ -44,15 +44,24 @@ W3.org has offered [a concise guide](https://www.w3.org/WAI/WCAG22/quickref/?ver
     - [ ] zooming in at 200% 
     - [ ] verify that all links feature descriptive link text.
 - [ ] Evaluate the usability of your application by 
-  - [ ] testing a workflow on your application without the use of a keyboard 
-  - [ ] testing a workflow on your application without the use of a mouse Employ tools like screen readers, such as [JAWS](https://accessibility.psu.edu/screenreaders/jawscommands/), [VoiceOver](https://support.apple.com/guide/voiceover-guide/welcome/web) or the keyboard shortcuts when testing for usage without a mouse for this assessment. Pay attention to specific issues during testing, such as ensuring the focus ring remains consistently visible, confirming that the page's order is logical, and verifying that all content is accessible to the screen reader.
+  - [ ] testing a workflow on your application without the use of a keyboard. Employ tools like screen readers, such as [JAWS](https://accessibility.psu.edu/screenreaders/jawscommands/) or [VoiceOver](https://support.apple.com/guide/voiceover-guide/welcome/web)
+    - [ ] confirm the page's order is logical
+    - [ ] verify all content is accessible to the screen reader.
+  - [ ] testing a workflow on your application without the use of a mouse  Employ keyboard shortcuts.  
+    - [ ] check if the focus ring remains consistently visible
 
 ### on a web application?
-- Validate your webpage using a dedicated tool like [WebAIM’s WAVE Accessibility Evaluation Tool](https://wave.webaim.org/standalone), [Markup Validation Service](https://validator.w3.org/) and [Lighthouse from Google](https://developer.chrome.com/docs/lighthouse/overview). WebAIM's WAVE Accessibility Evaluation Tool offers the option to disable stylesheets, allowing you to assess the content ordering as presented to screen readers.
-- Manually test the rendering of your application by enabling high contrast mode on your website (you can use a plugin like High Contrast in Chrome). 
-- Review your page using a grayscale filter or a color-deficient vision simulator, such as [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), to confirm that the content is not solely reliant on color.
-- Translate your page into another language, including a right-to-left language like Arabic. Confirm the following: ensure accurate rendering of all elements, verify precise translation of all content (employ a screen reader to catch potential oversights, especially in aria-labels), and check for proper content orientation when translated to or from a right-to-left language.
-- Apply the provided CSS snippet and confirm that all elements are still rendered correctly, adhering to WCAG 1.4.12. In Chrome, you can utilize the Stylus plugin for easy implementation. 
+- [ ] Validate your webpage with [WebAIM’s WAVE Accessibility Evaluation Tool](https://wave.webaim.org/standalone) WebAIM's WAVE Accessibility Evaluation Tool offers the option to disable stylesheets, allowing you to assess the content ordering as presented to screen readers.
+- [ ] Validate your webpage with [Markup Validation Service](https://validator.w3.org/) 
+- [ ] Validate your webpage with [Lighthouse from Google](https://developer.chrome.com/docs/lighthouse/overview). 
+- [ ] Manually test the rendering of your application by enabling high contrast mode on your website (you can use a plugin like High Contrast in Chrome). 
+- [ ] Review your page using a grayscale filter or a color-deficient vision simulator, such as [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), to confirm that the content is not solely reliant on color.
+- [ ] Translate your page into another language, including a right-to-left language like Arabic. 
+  - Confirm the following: 
+  - [ ] ensure accurate rendering of all elements
+  - [ ] verify precise translation of all content (employ a screen reader to catch potential oversights, especially in aria-labels)
+  - [ ] check for proper content orientation when translated to or from a right-to-left language.
+-[ ] Apply the provided CSS snippet and confirm that all elements are still rendered correctly, adhering to WCAG 1.4.12. In Chrome, you can utilize the Stylus plugin for easy implementation. 
 ```css 
 *{
   line-height: 1.5 !important;
@@ -64,13 +73,17 @@ W3.org has offered [a concise guide](https://www.w3.org/WAI/WCAG22/quickref/?ver
  }
 ```
 ### on a mobile app?
-- For Android apps, employ the Accessibility Scanner app, and for iOS apps, activate the Xcode Accessibility Inspector within Xcode. These tools offer insights into unlabeled elements, clipped text, color contrast levels, and text size.
-- Follow the tips and tricks provided on [Mobile A11y](https://mobilea11y.com/). 
-- Utilize a screen reader to assess the element order in your app. For Android, you can use TalkBack, and for iOS, employ VoiceOver. 
-- Utilize [Appium](http://appium.io/docs/en/latest/) to develop a test suite for a mobile app, incorporating accessibility testing.
+- [ ] For Android apps, employ the Accessibility Scanner app, and for iOS apps, activate the Xcode Accessibility Inspector within Xcode. 
+  - [ ] check for unlabeled elements
+  - [ ] check for clipped text
+  - [ ] check the color contrast levels
+  - [ ] check the text size
+- [ ] Follow the tips and tricks provided on [Mobile A11y](https://mobilea11y.com/). 
+- [ ] Utilize a screen reader to assess the element order in your app. For Android, you can use TalkBack, and for iOS, employ VoiceOver. 
+- [ ] Utilize [Appium](http://appium.io/docs/en/latest/) to develop a test suite for a mobile app, incorporating accessibility testing.
 
 ### on a non-web application?
-- Refer to the guidance provided in [Applying WCAG 2.2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/#introduction) for additional tips and tricks.
+- [ ] Refer to the guidance provided in [Applying WCAG 2.2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/#introduction) for additional tips and tricks.
 
 ## What to avoid?
 Incorporate accessibility into the core design of your application rather than treating it as an add-on feature.
