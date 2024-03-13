@@ -42,25 +42,29 @@ W3.org has offered [a concise guide](https://www.w3.org/WAI/WCAG22/quickref/?ver
 - [ ] Manually test your application to ensure proper rendering: 
     - [ ] adjusting the text size to the maximum
     - [ ] zooming in at 200% 
-    - [ ] verify that all links feature descriptive link text.
+    - [ ] verify that all links feature descriptive link text
 - [ ] Evaluate the usability of your application by 
-  - [ ] testing a workflow on your application without the use of a keyboard. Employ tools like screen readers, such as [JAWS](https://accessibility.psu.edu/screenreaders/jawscommands/) or [VoiceOver](https://support.apple.com/guide/voiceover-guide/welcome/web)
+  - [ ] testing a workflow on your application without the use of a keyboard. Employ screen readers, such as [JAWS](https://accessibility.psu.edu/screenreaders/jawscommands/) or [VoiceOver](https://support.apple.com/guide/voiceover-guide/welcome/web).
     - [ ] confirm the page's order is logical
-    - [ ] verify all content is accessible to the screen reader.
-  - [ ] testing a workflow on your application without the use of a mouse  Employ keyboard shortcuts.  
+    - [ ] verify all content is accessible to the screen reader
+  - [ ] testing a workflow on your application without the use of a mouse  Employ keyboard shortcuts  
     - [ ] check if the focus ring remains consistently visible
+- [ ] Ensure all videos are captioned
+- [ ] Ensure all audio is described as needed
+- [ ] Ensure all audio-only files are transcribed
 
 ### on a web application?
 - [ ] Validate your webpage with [WebAIM’s WAVE Accessibility Evaluation Tool](https://wave.webaim.org/standalone) WebAIM's WAVE Accessibility Evaluation Tool offers the option to disable stylesheets, allowing you to assess the content ordering as presented to screen readers.
 - [ ] Validate your webpage with [Markup Validation Service](https://validator.w3.org/) 
-- [ ] Validate your webpage with [Lighthouse from Google](https://developer.chrome.com/docs/lighthouse/overview). 
-- [ ] Manually test the rendering of your application by enabling high contrast mode on your website (you can use a plugin like High Contrast in Chrome). 
-- [ ] Review your page using a grayscale filter or a color-deficient vision simulator, such as [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), to confirm that the content is not solely reliant on color.
-- [ ] Translate your page into another language, including a right-to-left language like Arabic. 
+- [ ] Validate your webpage with [Lighthouse from Google](https://developer.chrome.com/docs/lighthouse/overview) 
+- [ ] Manually test the rendering of your application by enabling high contrast mode on your website (you can use a plugin like High Contrast in Chrome) 
+- [ ] Review your page using a grayscale filter or a color-deficient vision simulator, such as [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), to confirm that the content is not solely reliant on color
+- [ ] Review the print preview of your webpage (CTL + P on Windows)
+- [ ] Translate your page into another language, including a right-to-left language like Arabic 
   - Confirm the following: 
   - [ ] ensure accurate rendering of all elements
   - [ ] verify precise translation of all content (employ a screen reader to catch potential oversights, especially in aria-labels)
-  - [ ] check for proper content orientation when translated to or from a right-to-left language.
+  - [ ] check for proper content orientation when translated to or from a right-to-left language
 -[ ] Apply the provided CSS snippet and confirm that all elements are still rendered correctly, adhering to WCAG 1.4.12. In Chrome, you can utilize the Stylus plugin for easy implementation. 
 ```css 
 *{
