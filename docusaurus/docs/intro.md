@@ -16,24 +16,24 @@ Developers working for the municipality of Amsterdam.
 
 Standards are described using the following headings:
 
-- Title of standard 
+- **Title of standard** 
 
-- When due another review 
+- **When due another review** 
 
-- Why this standard 
+- **Why this standard** 
 
-- When and for whom is this standard?  
+- **When and for whom is this standard?**  
 
-- How to apply this standard?
+- **How to apply this standard?**
 <small> (Depending on the standard, this could either represent a set of best practices, serving as an example of how to meet the standard effectively, or it could constitute the sole method of compliance. The determination of whether it is a best practice or the exclusive approach to meeting the standard will be made by the developer community. Please ensure clarity in your description by specifying whether the provided guidance represents a best practice or the mandatory method of meeting the standard.)</small>
 
-- What pitfalls to avoid?* 
+- **What pitfalls to avoid?*** 
 
-- Considerations 
+- **Considerations** 
 
-- Further reading 
+- **Further reading** 
 
-- Acknowledgments 
+- **Acknowledgments** 
 
  
 <small>\* Is not mandatory</small> 
