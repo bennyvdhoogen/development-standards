@@ -1,4 +1,29 @@
 # Documentation
+> This page was last reviewed at 6h of March 2024. It needs to be reviewed again on the 6th of December 2024.
+
+## What is the standard for documentation?
+Documentatoin should consist of the following:
+- [ ] a readme (Please follow the guidelines on what to include in a Readme )
+
+
+## When and for whom is this standard applicable?
+This standard applies to front-end and back-end developers.\
+All public repositories of the city of Amsterdam should be documented in accordance with these standards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## licensing
 Amsterdam uses the ..... license. Include this in your repo. 
