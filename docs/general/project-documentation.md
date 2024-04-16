@@ -1,5 +1,5 @@
 # Documentation
-> This page was last reviewed at 6h of March 2024. It needs to be reviewed again on the 6th of December 2024.
+> This page was last reviewed 6th March 2024. It needs to be reviewed again on the 6th December 2024.
 
 ## What is the standard for documentation?
 Include documentation in your project that facilitates understanding, usage, and maintenance of your code. The documentation should promote usability and longevity of your project, and effective collaboration among your stakeholders.
@@ -10,11 +10,11 @@ This standard is applicable to all repositories of the city of Amsterdam.
 
 
 ## What needs to be documented?
-Project documenation should include the following:
+Project documentation should include the following:
 - [ ] the main idea of the application
-- [ ] the license [EU-PL v1.2](https://eupl.eu/1.2/en/) 
+- [ ] the license [EU-PL v1.2](https://eupl.eu/1.2/en/)
 - [ ] a ReadMe (please follow the guidelines on what to include in a ReadMe [ToDO: reference to where documentation about ReadMes will be])
-- [ ] all architectural decisions made, use the format Architecture Decision Record (ADR) 
+- [ ] all architectural decisions made, use the format Architecture Decision Record (ADR)
 - [ ] a changelog and a future review date
 - [ ] information about what data is processed by the application
 - [ ] API documentation (endpoints, parameters, request/response formats and examples, authentication requirements)
@@ -29,7 +29,7 @@ Documentation is not a one-time task. Regularly review and update documentation 
 
 
 ## Further reading
--  [The blog post](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) about Architecture Decision Records by Michael Nygard. 
+-  [The blog post](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) about Architecture Decision Records by Michael Nygard.
 
 
 ## Acknowledgements
