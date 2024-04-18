@@ -6,11 +6,11 @@ Include documentation in your project that facilitates understanding, usage, and
 
 ## When and for whom is this standard applicable?
 This standard applies to front-end and back-end developers.\
-This standard is applicable to all repositories of the city of Amsterdam.
+This standard must be applied to all new repositories of the city of Amsterdam (new since May 2024).
 
 
-## What needs to be documented?
-Project documentation should include the following:
+## What is required to document?
+Project documentation must include the following:
 - [ ] the main idea of the application
 - [ ] the license [EU-PL v1.2](https://eupl.eu/1.2/en/)
 - [ ] a ReadMe (please follow the guidelines on what to include in a ReadMe [ToDO: reference to where documentation about ReadMes will be])
