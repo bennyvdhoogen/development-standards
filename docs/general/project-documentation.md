@@ -5,7 +5,7 @@
 Include documentation in your project that facilitates understanding, usage, and maintenance of your code. The documentation should promote usability and longevity of your project, and effective collaboration among your stakeholders.
 
 ## When and for whom is this standard applicable?
-This standard applies to front-end and back-end developers.\
+This standard applies to front-end and back-end developers.<br>
 This standard must be applied to all new repositories of the city of Amsterdam (new since May 2024).
 
 
